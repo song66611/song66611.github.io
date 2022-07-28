@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://song66611.github.io</id>
+    <title>song</title>
+    <updated>2022-07-28T14:30:35.011Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://song66611.github.io"/>
+    <link rel="self" href="https://song66611.github.io/atom.xml"/>
+    <subtitle>我的小小小网站</subtitle>
+    <logo>https://song66611.github.io/images/avatar.png</logo>
+    <icon>https://song66611.github.io/favicon.ico</icon>
+    <rights>All rights reserved 2022, song</rights>
+    <entry>
+        <title type="html"><![CDATA[🎆🎆🎆🎆🎆纪念🎇🎇🎇🎇🎇]]></title>
+        <id>https://song66611.github.io/post/ji-nian/</id>
+        <link href="https://song66611.github.io/post/ji-nian/">
+        </link>
+        <updated>2022-07-28T13:54:03.000Z</updated>
+        <summary type="html"><![CDATA[<p>我的第一个基于Github的网站顺利搭建成功，耗时俩天。</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>我的第一个基于Github的网站顺利搭建成功，耗时俩天。</p>
+<!-- more -->
+<pre><code>                                                            **总结**
+</code></pre>
+<p>不足：1.不能理性的思考问题，过于依赖csdn  2.对专业名词了解太少，特别是名词的英语，导致自己盲目的操作<br>
+收获:  1.搭建了自己的第二个博客  2.熟悉了GitHub的数据库的搭建及一些基本的GitHub的文件的操作  3.熟悉了命令行的指令</p>
+]]></content>
+    </entry>
+</feed>
