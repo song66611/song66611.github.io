@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://song66611.github.io</id>
+    <title>song &apos; website</title>
+    <updated>2022-08-22T14:43:50.585Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://song66611.github.io"/>
+    <link rel="self" href="https://song66611.github.io/atom.xml"/>
+    <subtitle>&lt;font face=&quot;楷书&quot;; color=green; size=4px&gt;我的小小小网站&lt;/font&gt;</subtitle>
+    <logo>https://song66611.github.io/images/avatar.png</logo>
+    <icon>https://song66611.github.io/favicon.ico</icon>
+    <rights>All rights reserved 2022, song &apos; website</rights>
+    <entry>
+        <title type="html"><![CDATA[愉快的一天🧓🧓🧓]]></title>
+        <id>https://song66611.github.io/post/lAG9ZJ73R/</id>
+        <link href="https://song66611.github.io/post/lAG9ZJ73R/">
+        </link>
+        <updated>2022-08-22T13:30:10.000Z</updated>
+        <content type="html"><![CDATA[<h3 id="最近又有点颓废在把个人博客搭建完成后就没得前进的动力了-虽然现在每天都在写leetcode里的每日一题但真的太难了-主要原因都是和数据结构相关我虽然学了数据结构但已经过去了2年了而且没有学如何在编程语言中运用各种数据结构和算法所以真的这个算法前期太费脑子了很磨练耐心">最近又有点颓废，在把个人博客搭建完成后就没得前进的动力了。虽然现在每天都在写leetcode里的每日一题，但真的太难了。主要原因，都是和数据结构相关，我虽然学了数据结构但已经过去了2年了，而且没有学如何在编程语言中运用各种数据结构和算法，所以真的这个算法前期太费脑子了，很磨练耐心。</h3>
+<h3 id="现在处于一种抄作业的学习的状态是真的不会啊看着答案都要理解半天有时候半天都理解不了题目也很绕题意很难摸清楚可能是我的逻辑能力不强吧只能一步一步的来了-加油">现在处于一种抄作业的学习的状态，是真的不会啊，看着答案都要理解半天，有时候半天都理解不了，题目也很绕，题意很难摸清楚，可能是我的逻辑能力不强吧，只能一步一步的来了。加油！！！</h3>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[用byet和wordpress搭建个人博客]]></title>
+        <id>https://song66611.github.io/post/yong-byet-he-wordpress-da-jian-ge-ren-bo-ke/</id>
+        <link href="https://song66611.github.io/post/yong-byet-he-wordpress-da-jian-ge-ren-bo-ke/">
+        </link>
+        <updated>2022-08-04T08:07:24.000Z</updated>
+        <content type="html"><![CDATA[<blockquote>
+<p>就我另一个网站的搭建做个总结和记录，很简单的一个博客网站。需要翻墙才能访问自己搭建的网站，这个服务器是在国外，这个我不知道怎么解决。如果你会搭梯子，可以看看我另一个<a href="http://sdebk.byethost32.com/wordpress-6.0.1-zh_CN/wordpress/">网站</a></p>
+</blockquote>
+<p>1.进入网站<a href="https://byet.host/">https://byet.host/</a>在这里可以先登录注册一个账号，注册后会把面板等的账号和密码发送到你的邮箱，注册的邮箱可以是谷歌和QQ等等，但是在他发送的邮件可能没有在收件箱里面，很有可能会被邮箱识别为垃圾邮件，所以在垃圾箱里看看。<br>
+<img src="https://song66611.github.io/post-images/1659600966820.png" alt="" loading="lazy"></p>
+<p>2.在接下来，可以直接进入cpanel登录界面，输入上面的信息，进入面板界面。</p>
+<p><img src="https://song66611.github.io/post-images/1659600986627.png" alt="" loading="lazy"><br>
+3.找到免费ftp软件在里面下载一个免费的FTP，在安装好了以后。在左上角有个文件在里面点击站点管理器，新建一个站点。里面填写的内容要和cpanel面板右边内容的一样，如图<br>
+<img src="https://song66611.github.io/post-images/1659600999040.png" alt="" loading="lazy"><br>
+在连接成功后，将htdocs中的文件删掉，只留下htdocs文件夹，我们导入提前下载好了的wordpress文件到htdocs文件夹中。然后等待文件的导入。</p>
+<p>3.然后就是数据库的建立，在cpanel面板中找到MySQL数据库，新建一个数据库，里面的填写内容也要依据给你发送到邮箱的邮件里面的信息填写。建好后如下示例<br>
+<img src="https://song66611.github.io/post-images/1659601012600.png" alt="" loading="lazy"></p>
+<p>4.我们再进入自己的网址，也在邮件里面，点击网址后会叫你配置数据库。里面填写的内容要和自己建立的数据库相对应，主机名啥的都在Cpanel里面，前缀就是用户名。设置好数据库后就可以通过自己的域名地址进入wordpress面板。</p>
+<p>在wordpress面板中可以自定义自己的网站内容，还可以自己下载想要的主题，可以省去很多精力来开发网站。以上就是我的一些记录，这个方式太适合新手了，不用自己去申请域名，也不用买服务器，更不用进行域名的解析，而且网站的前端开发可以直接下载现成的主题。如果各位觉得这个建站没得挑战性，我建议各位可以试试自己买域名买服务器的搭建方式，如果你愿意花钱，域名和服务器可以在腾讯云或者阿里云上购买，域名解析也可以在这俩里面完成，这样会相对简单。但对于我这样的穷人，我只能找各种免费域名和服务器，最开始我已经把域名申请了，虚拟机也配置了，宝塔面板也弄好了，但我是真的不清楚如何解析国外申请的域名，所以在宝塔面板那里我就卡住了........</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[就markdown语言的学习记录🛴]]></title>
+        <id>https://song66611.github.io/post/jiu-markdown-yu-yan-de-xue-xi-ji-lu/</id>
+        <link href="https://song66611.github.io/post/jiu-markdown-yu-yan-de-xue-xi-ji-lu/">
+        </link>
+        <updated>2022-08-03T08:44:19.000Z</updated>
+        <content type="html"><![CDATA[<blockquote>
+<p>何为markdown语言？markdown是一种广泛应用于博客写作的轻量级标记语言，HTML也是一种标记语言。markdown简单好用，很适合用于文本的编辑。以下是我整理的一些markdown的语法。</p>
+</blockquote>
+<h2 id="标题">标题——#</h2>
+<p>示例 <img src="https://song66611.github.io/post-images/1659577171785.png" alt="" loading="lazy"><br>
+效果 <img src="https://song66611.github.io/post-images/1659577177084.png" alt="" loading="lazy"></p>
+<h2 id="粗体字斜体字粗斜体字或_">粗体字，斜体字，粗斜体字——*或_</h2>
+<p>在文本的前面和最后加上一个<em>或_，就是斜体字<br>
+在文本的前面和后面加上俩个</em>或_，就是粗体字<br>
+在文本的前面和后面加上三个*或_，就是粗斜体字<br>
+<em>斜体字</em>    <em>斜体字</em><br>
+<strong>粗体字</strong>  <strong>粗体字</strong><br>
+<em><strong>粗斜体字</strong></em> <em><strong>粗斜体字</strong></em></p>
+<h2 id="列表-">列表——+ - *</h2>
+<p>无序列表可以在文本前面用一个+或-或*，再加一个空格就行</p>
+<ul>
+<li>无序列表</li>
+</ul>
+<ul>
+<li>无序列表</li>
+</ul>
+<ul>
+<li>无序列表</li>
+</ul>
+<p>有序列表是在文本前用数字加一个.   ,例如1.<br>
+1.有序列表<br>
+2.有序列表<br>
+3.有序列表</p>
+<p>如果要分层的话可以在-号前面插入tab<br>
+'- 无序列表<br>
+-无序列表<br>
+tab- 无序列表<br>
+tab-无序列表'</p>
+<ul>
+<li>无序列表</li>
+<li>无序列表
+<ul>
+<li>无序列表</li>
+<li>无序列表</li>
+</ul>
+</li>
+</ul>
+<h2 id="链接链接名称-链接地址">链接——[链接名称] (链接地址)</h2>
+<p>例如:[百度] (www.baidu.com)<br>
+<a href="www.baidu.com">百度</a></p>
+<h2 id="引用">引用——&gt;</h2>
+<p>直接在文字前面加上&gt;</p>
+<blockquote>
+<p>引用<br>
+我的<br>
+博客<br>
+嵌套引用，一个&gt;在第一层，俩个&gt;在第二层，三个就在第三层<br>
+第一层</p>
+<blockquote>
+<p>第二层</p>
+<blockquote>
+<p>第三层</p>
+</blockquote>
+</blockquote>
+</blockquote>
+<h2 id="分割线或-">分割线——*或-</h2>
+<p>用三个*或-，并且上面要先空一行</p>
+<p>分割线 -</p>
+<hr>
+<p>分割线 *</p>
+<hr>
+<h2 id="删除线-~~">删除线—— ~~</h2>
+<p>在要设置删除线的文本前后加上~~<br>
+<s>删除线</s></p>
+<h2 id="下划线-urur">下划线—— <ur></ur></h2>
+<p>将需要设置下划线的文本放置在<ur></ur>之间<br>
+<ur>下划线</ur></p>
+<h2 id="表格">表格—— |</h2>
+<p>| 是表格中用来分隔单元格的，-是表格中用来分隔表头和其它行的<br>
+:--让表格内容左对齐， :--: 让表格内容居中对齐， --:让表格内容右对齐<br>
+<img src="https://song66611.github.io/post-images/1659574688536.png" alt="" loading="lazy"></p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">姓名</th>
+<th style="text-align:center">年龄</th>
+<th style="text-align:right">性别</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">张三</td>
+<td style="text-align:center">22</td>
+<td style="text-align:right">女</td>
+</tr>
+<tr>
+<td style="text-align:left">李四</td>
+<td style="text-align:center">21</td>
+<td style="text-align:right">男</td>
+</tr>
+</tbody>
+</table>
+<h2 id="图片">图片—— <img src="" alt="" loading="lazy"></h2>
+<p>格式为 [图片名字] (图片链接)<br>
+文本 <img src="https://song66611.github.io/post-images/1659574849092.png" alt="" loading="lazy"><br>
+效果 <img src="https://w.wallhaven.cc/full/x8/wallhaven-x8ppgv.jpg" alt="picture" loading="lazy"></p>
+<h2 id="脚注">脚注——<a href=""></a></h2>
+<p>链接和脚注区别<br>
+链接：[链接名字] (链接地址)<br>
+脚注：[需注释的内容] (注释的内容)<br>
+例如:  <a href="%E5%94%90%E6%9C%9D%E8%AF%97%E4%BA%BA" title="李白">李白</a></p>
+<h2 id="代码块">代码块——``</h2>
+<p>代码块内容直接用反引号括起来就好<br>
+<code>system.out.print(&quot;hello world !&quot;)</code></p>
+<h2 id="列出全部标题toc">列出全部标题——[toc]</h2>
+<p>格式如下<br>
+[TOC]</p>
+<p>#一级标题<br>
+##二级标题<br>
+###三级标题<br>
+####四级标题</p>
+<h2 id="转义符号">转义符号——\</h2>
+<p>在 Markdown 编辑器里面使用了很多特殊符号来表示特定的意义，该特殊符号将不再显示，这个时候就需要转义字符——反斜杠，如下：<br>
+<img src="https://song66611.github.io/post-images/1659576503648.png" alt="" loading="lazy"><br>
+<strong>加粗字体</strong><br>
+<em>*加粗字体</em>*</p>
+<h2 id="直接用html格式">直接用html格式</h2>
+<p>&lt;font size=12px; color=blue; face=&quot;宋体&quot;&gt;html&lt;/font&gt;<br>
+<font size=12px; color=blue; face="宋体">html</font></p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Gridea加Github搭建个人博客]]></title>
+        <id>https://song66611.github.io/post/gridea-jia-github-da-jian-ge-ren-bo-ke/</id>
+        <link href="https://song66611.github.io/post/gridea-jia-github-da-jian-ge-ren-bo-ke/">
+        </link>
+        <updated>2022-08-03T07:53:54.000Z</updated>
+        <content type="html"><![CDATA[<p>这是第二种搭建博客的方法，由于有一些事情，拖了这么久才开始写。<br>
+1.下载Gridea，安装的时候没有什么特别的地方需要选，直接一直点下一步就行了。<br>
+2.登录注册GitHub，创建仓库，设置token密匙。<br>
+3.打开Gridea软件进入远程连接界面，这里面有一些东西需要填。平台可以选择，我用的是GitHub，域名就是你的仓库名加https，分支可以选，看你自己仓库里面是哪一个。重要的是令牌，这个令牌就是GitHub中的token密匙，这个可以自己去设置，方法在上一个博客有说明。<br>
+<img src="https://song66611.github.io/post-images/1659515296415.png" alt="" loading="lazy"><br>
+4.填好后可以点测试连接，看是否可以连接上GitHub。如果可以连接，那么就可以去gridea主题中自己下载喜欢的主题，每个主题都有安装说明，按照说明来一步步操作即可。<br>
+5.可以自己写博客，再上传到GitHub中，上传很不稳定要多试几次。</p>
+<p>这个搭建方式确实很简单，所以就没有进行详细的说明。</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[用GitHub和hexo搭建个人博客网站]]></title>
+        <id>https://song66611.github.io/post/yong-github-he-hexo-da-jian-ge-ren-bo-ke-wang-zhan/</id>
+        <link href="https://song66611.github.io/post/yong-github-he-hexo-da-jian-ge-ren-bo-ke-wang-zhan/">
+        </link>
+        <updated>2022-07-29T09:31:36.000Z</updated>
+        <content type="html"><![CDATA[<p>本次踩雷很多~~~~<br>
+第一次使用的方法:<br>
+最开始搭建的时候是参考的这篇文章https://blog.csdn.net/wapchief/article/details/54602515，这个是依靠hexo和GitHub来搭建的博客，本来我看着步骤挺简单的，但上手操作后发现里面有很多的坑，博主写的是没有问题，但我下载的git版本和博主里面的不一样，我的是最新的一版，还有GitHub中也有更新。步骤如下：<br>
+1.在按照他的操作步骤来操作的话，在下载好hexo和git还有jode后，在cmd中安装hexo，要用npm命令使用npm install hexo-cli -g 命令安装，安装好后再用hexo -v查看安装成功没有。然后在随便一个文件位置创建一个文件夹名字可以随便，例如GitHub，在GitHub文件夹下再新建个blog文件夹以便放置配置文件<br>
+<img src="https://song66611.github.io/post-images/1659087886681.png" alt="" loading="lazy"><br>
+2.右键点击blog文件夹，点击git bash here<br>
+<img src="https://song66611.github.io/post-images/1659088252056.png" alt="" loading="lazy"><br>
+3.出现 如图这样的框框后进行命令的输入<br>
+<img src="https://song66611.github.io/post-images/1659088601918.png" alt="" loading="lazy"><br>
+npm install hexo --save   初始化hexo基础配置文件。初始化时间比较长，不用急，等完成后输入<br>
+hexo init   初始化hexo。这个命令和git 仓库命令相似。意思一样都是初始化。<br>
+npm install  配置node。然后输入<br>
+hexo g  加载hexo基础html、css、js等文件。<br>
+在这完成后等于已经在本地创建了一个网页，想查看的话，输入hexo s<br>
+这里面有时候会有一些错误，但都是一些小问题可以解决，因为我当时没有截屏，所以不能把我碰到的问题分享出来。<br>
+4.输入hexo s 中的地址,一般都是http://localhost:4000/ ，如果出来这样的页面，则上面操作无误<br>
+<img src="https://song66611.github.io/post-images/1659089430983.png" alt="" loading="lazy"><br>
+5.设置ssh，可见这篇文章 https://blog.csdn.net/weixin_45377770/article/details/105228938?spm=1001.2101.3001.6650.2&amp;utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7Edefault-2-105228938-blog-54602515.pc_relevant_multi_platform_whitelistv1_exp2&amp;depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7Edefault-2-105228938-blog-54602515.pc_relevant_multi_platform_whitelistv1_exp2&amp;utm_relevant_index=5 ，<br>
+在这里面有几个坑，（1）在GitHub中配置tokens，配置好了要粘贴复制，后面就看不到密匙了。为什么配置token因为GitHub更新后是取消了用户密码的使用，在git命令中输入hexo  d 后会叫你输入用户名和密码，这里密码里面要输入token密匙<br>
+5.选择主题的安装，在GitHub中注册登录（网络可能不好可以选择翻墙）外加厂库的创建，在GitHub左上角的搜索框中搜hexo theme 会有很多的主题，选一个进入，复制链接<br>
+<img src="https://song66611.github.io/post-images/1659089749102.png" alt="" loading="lazy"><br>
+6.回到git命令中输入“ git clone 复制的主题链接 themes/主题名 ”  ，在_config.yml文件最下面有个theme：landscape ,把landscape改成你的主题名，保存<br>
+7.配置远程仓库名，也是在_config.yml文件中，在最下面把本来的语句改成这样，repo中放的是自己GitHub中的仓库地址，保存<br>
+Deployment<br>
+Docs: https://hexo.io/docs/deployment.html<br>
+deploy:<br>
+type: git<br>
+repo: https://github.com/”仓库左上角的地址“<br>
+branch: master</p>
+<p>8.在命令行输入hexo clean &amp;&amp; hexo g &amp;&amp; hexo d。然后不出意外就可以在仓库中看到文件了。<br>
+9.最后，注意因为我们上传的文件在master中没有在main 中所以要在github page中更改，第三步操作要选master。（我就是没有弄这一步，导致下载的主题加载不出来，所以有了方法二）<br>
+<img src="https://song66611.github.io/post-images/1659091818628.png" alt="" loading="lazy"><br>
+10.输入网址访问，就是https://加上你仓库的名字，例如https://song66611.github.io</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[🎆🎆🎆🎆🎆纪念🎇🎇🎇🎇🎇]]></title>
+        <id>https://song66611.github.io/post/ji-nian/</id>
+        <link href="https://song66611.github.io/post/ji-nian/">
+        </link>
+        <updated>2022-07-28T13:54:03.000Z</updated>
+        <summary type="html"><![CDATA[<p>我的第一个基于Github的网站顺利搭建成功，耗时俩天。</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>我的第一个基于Github的网站顺利搭建成功，耗时俩天。</p>
+<!-- more -->
+<pre><code>                                               **总结**
+</code></pre>
+<p>不足：1.不能理性的思考问题，过于依赖csdn  2.对专业名词了解太少，特别是名词的英语，导致自己盲目的操作<br>
+收获:  1.搭建了自己的第二个博客  2.熟悉了GitHub的数据库的搭建及一些基本的GitHub的文件的操作  3.熟悉了命令行的指令</p>
+]]></content>
+    </entry>
+</feed>

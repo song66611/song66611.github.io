@@ -1,0 +1,457 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+ <meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta HTTP-EQUIV="pragma" CONTENT="no-cache"> 
+<meta HTTP-EQUIV="Cache-Control" CONTENT="no-cache, must-revalidate"> 
+<meta HTTP-EQUIV="expires" CONTENT="0"> 
+<title>用GitHub和hexo搭建个人博客网站 | song &#39; website</title>	
+
+<link rel="stylesheet" href="https://song66611.github.io/styles/main.css">
+<script type="text/javascript">
+function getCSS()
+{
+        datetoday = new Date();
+        timenow=datetoday.getTime();
+        datetoday.setTime(timenow);
+        thehour = datetoday.getHours();
+
+        if (thehour<7)
+
+            display = "https://song66611.github.io/media/css/night.css";
+
+       else if (thehour>21)
+
+            display = "https://song66611.github.io/media/css/night.css";   
+
+        else if (thehour>7)
+           
+            display = "https://song66611.github.io/media/css/day.css";
+
+        else if (thehour<21)
+
+            display = "https://song66611.github.io/media/css/day.css";
+      
+
+var css = '<';
+        css+='link rel="stylesheet" href='+display+' \/';
+        css+='>';
+        document.write(css);
+}
+</script>
+<link href="https://fonts.googleapis.com/css?family=Dancing+Script|Noto+Sans+SC:300|Montserrat&display=swap" rel="stylesheet">
+<link href="https://at.alicdn.com/t/font_1306644_jwtuc2zzbrd.css" rel="stylesheet" />
+<script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+<script type='text/javascript' src='https://song66611.github.io/media/scripts/script.js'></script>
+<link href="https://cdn.bootcss.com/animate.css/3.5.2/animate.min.css" rel="stylesheet" />
+  <script src="https://cdn.bootcss.com/wow/1.1.2/wow.min.js"></script>
+  <script src="https://cdn.bootcss.com/highlight.js/9.15.8/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+  <script>wow=new WOW({boxClass:'wow',animateClass:'animated',offset:0,mobile:true,live:true});wow.init();</script>
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-SFYJHBY8VL"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-SFYJHBY8VL');
+</script>
+
+<script type="text/javascript">
+window.onload=getCSS();
+</script>
+
+
+ 	
+</head>
+<body class="post-template-default single single-post postid-70 single-format-standard">
+    <div id="wrapper">
+        
+			
+		<header id="header" class="site-header" 
+		
+		style="background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),url(https://w.wallhaven.cc/full/01/wallhaven-012m3g.jpg)"
+		
+		>
+			<div class="site-branding">
+									<h1 class="site-title"><a href="https://song66611.github.io" rel="home">song &#39; website</a></h1>
+										
+					<h2 class="site-description"><font face="楷书"; color=green; size=4px>我的小小小网站</font></h2>
+										
+							</div>
+			<nav id="nav-wrapper">
+				<div class="container">
+					<div class="nav-toggle">
+						<div class="bars">
+							<div class="bar"></div>
+							<div class="bar"></div>
+							<div class="bar"></div>
+						</div>
+					</div>
+					<div class="clear"></div>
+					<ul id="" class="dove">
+		 
+     			
+<li>
+	 
+	<a  href="/"> 首页</a></li>
+	
+    
+     			
+<li>
+	 
+	<a  href="/archives"> 归档</a></li>
+	
+    
+     			
+<li>
+	 
+	<a  href="/tags"> 标签</a></li>
+	
+    
+     			
+<li>
+	 
+	<a  href="/post/about"> 关于</a></li>
+	
+    
+     			
+<li>
+	 
+	<a  href="https://song66611.github.io/tag/2GX5ZtVHY/"> 博客</a></li>
+	
+    
+
+</ul>
+</li>		
+		
+</ul>				</div>
+			</nav>
+						<div class="jingge">
+
+
+    
+			
+<a  href="https://twitter.com/" target="_blank" ><i class="iconfont icon-twitter"></i></a>
+ 
+    
+			
+<a  href="https://github.com/" target="_blank" ><i class="iconfont icon-github"></i></a>
+ 
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+			
+<a  href="https://www.instagram.com/" target="_blank" ><i class="iconfont icon-instagram"></i></a>
+ 
+    
+
+    
+
+    
+
+    
+        </header>
+
+		<div id="content" class="container">
+			<div class="row">
+	<div class="col-md-8 site-main">
+				
+<article id="post-70" class="post-70 post type-post status-publish format-standard hentry category-5 tag-10 tag-9 tag-11">
+
+	
+	                      
+		<div class="entry-content">
+			<h1 class="wow swing entry-title">用GitHub和hexo搭建个人博客网站</h1>
+<div class="entry-meta">
+<div class="wow bounce">
+	<i class="iconfont icon-rili"> <time class="lately-a" datetime="2022-07-29 17:31:36" itemprop="datePublished" pubdate="">2022-07-29</time></i>
+	          </div>
+			
+</span>
+													 
+		</div>
+                  
+			<div class="wow slideInLeft entry-summary song">
+				<p>本次踩雷很多~~~~<br>
+第一次使用的方法:<br>
+最开始搭建的时候是参考的这篇文章https://blog.csdn.net/wapchief/article/details/54602515，这个是依靠hexo和GitHub来搭建的博客，本来我看着步骤挺简单的，但上手操作后发现里面有很多的坑，博主写的是没有问题，但我下载的git版本和博主里面的不一样，我的是最新的一版，还有GitHub中也有更新。步骤如下：<br>
+1.在按照他的操作步骤来操作的话，在下载好hexo和git还有jode后，在cmd中安装hexo，要用npm命令使用npm install hexo-cli -g 命令安装，安装好后再用hexo -v查看安装成功没有。然后在随便一个文件位置创建一个文件夹名字可以随便，例如GitHub，在GitHub文件夹下再新建个blog文件夹以便放置配置文件<br>
+<img src="https://song66611.github.io/post-images/1659087886681.png" alt="" loading="lazy"><br>
+2.右键点击blog文件夹，点击git bash here<br>
+<img src="https://song66611.github.io/post-images/1659088252056.png" alt="" loading="lazy"><br>
+3.出现 如图这样的框框后进行命令的输入<br>
+<img src="https://song66611.github.io/post-images/1659088601918.png" alt="" loading="lazy"><br>
+npm install hexo --save   初始化hexo基础配置文件。初始化时间比较长，不用急，等完成后输入<br>
+hexo init   初始化hexo。这个命令和git 仓库命令相似。意思一样都是初始化。<br>
+npm install  配置node。然后输入<br>
+hexo g  加载hexo基础html、css、js等文件。<br>
+在这完成后等于已经在本地创建了一个网页，想查看的话，输入hexo s<br>
+这里面有时候会有一些错误，但都是一些小问题可以解决，因为我当时没有截屏，所以不能把我碰到的问题分享出来。<br>
+4.输入hexo s 中的地址,一般都是http://localhost:4000/ ，如果出来这样的页面，则上面操作无误<br>
+<img src="https://song66611.github.io/post-images/1659089430983.png" alt="" loading="lazy"><br>
+5.设置ssh，可见这篇文章 https://blog.csdn.net/weixin_45377770/article/details/105228938?spm=1001.2101.3001.6650.2&amp;utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7Edefault-2-105228938-blog-54602515.pc_relevant_multi_platform_whitelistv1_exp2&amp;depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7Edefault-2-105228938-blog-54602515.pc_relevant_multi_platform_whitelistv1_exp2&amp;utm_relevant_index=5 ，<br>
+在这里面有几个坑，（1）在GitHub中配置tokens，配置好了要粘贴复制，后面就看不到密匙了。为什么配置token因为GitHub更新后是取消了用户密码的使用，在git命令中输入hexo  d 后会叫你输入用户名和密码，这里密码里面要输入token密匙<br>
+5.选择主题的安装，在GitHub中注册登录（网络可能不好可以选择翻墙）外加厂库的创建，在GitHub左上角的搜索框中搜hexo theme 会有很多的主题，选一个进入，复制链接<br>
+<img src="https://song66611.github.io/post-images/1659089749102.png" alt="" loading="lazy"><br>
+6.回到git命令中输入“ git clone 复制的主题链接 themes/主题名 ”  ，在_config.yml文件最下面有个theme：landscape ,把landscape改成你的主题名，保存<br>
+7.配置远程仓库名，也是在_config.yml文件中，在最下面把本来的语句改成这样，repo中放的是自己GitHub中的仓库地址，保存<br>
+Deployment<br>
+Docs: https://hexo.io/docs/deployment.html<br>
+deploy:<br>
+type: git<br>
+repo: https://github.com/”仓库左上角的地址“<br>
+branch: master</p>
+<p>8.在命令行输入hexo clean &amp;&amp; hexo g &amp;&amp; hexo d。然后不出意外就可以在仓库中看到文件了。<br>
+9.最后，注意因为我们上传的文件在master中没有在main 中所以要在github page中更改，第三步操作要选master。（我就是没有弄这一步，导致下载的主题加载不出来，所以有了方法二）<br>
+<img src="https://song66611.github.io/post-images/1659091818628.png" alt="" loading="lazy"><br>
+10.输入网址访问，就是https://加上你仓库的名字，例如https://song66611.github.io</p>
+
+							</div>
+	<div class="wow bounceInDown vt-post-tags">
+ 
+				<a href="https://song66611.github.io/tag/2GX5ZtVHY/" rel="tag">博客</a>	
+				 
+					</div>						
+<nav class="navigation3 post-navigation3" role="navigation">
+		
+		<div class="nav-links3">
+      
+		<div class="wow bounceInLeft nav-previous3"><a href="https://song66611.github.io/post/gridea-jia-github-da-jian-ge-ren-bo-ke/" rel="prev"> Gridea加Github搭建个人博客</a></div>
+		 
+		 
+		<div class="wow bounceInRight nav-next3"><a href="https://song66611.github.io/post/ji-nian/" rel="next"> 🎆🎆🎆🎆🎆纪念🎇🎇🎇🎇🎇</a></div>
+		
+		</div>
+	</nav>
+	<div class="wow rollIn author-info" style="visibility: visible; animation-name: rollIn;">
+	<div class="author-avatar pull-left"><img src="https://song66611.github.io/images/avatar.png" ></div>
+ 
+	<div class="author-description"><div class="author-title"><div class="author-link" rel="author">宋多钱</div></div>
+
+
+	<p class="author-bio">万事随心</p></div></div>
+	
+		</div>
+		
+ 
+		
+</article>
+
+<div id="marlin_lite_about_widget-2" class="wow bounceInUp widget marlin_lite_about_widget" data-wow-delay="0.1s">
+		
+        
+		<script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+<script src='https://song66611.github.io/media/scripts/Valine.min.js'></script>
+
+<div class="comment"></div>
+<script>
+        new Valine({
+            // AV 对象来自上面引入av-min.js(老司机们不要开车➳♡゛扎心了老铁)
+            av: AV, 
+            el: '.comment',
+            lang: 'zh-cn',
+            
+            
+      emoticon_list: ["吐.png","喷血.png","狂汗.png","不说话.png","汗.png","坐等.png","献花.png","不高兴.png","中刀.png","害羞.png","皱眉.png","小眼睛.png","中指.png","尴尬.png","瞅你.png","想一想.png","中枪.png","得意.png","肿包.png","扇耳光.png","亲亲.png","惊喜.png","脸红.png","无所谓.png","便便.png","愤怒.png","蜡烛.png","献黄瓜.png","内伤.png","投降.png","观察.png","看不见.png","击掌.png","抠鼻.png","邪恶.png","看热闹.png","口水.png","抽烟.png","锁眉.png","装大款.png","吐舌.png","无奈.png","长草.png","赞一个.png","呲牙.png","无语.png","阴暗.png","不出所料.png","咽气.png","期待.png","高兴.png","吐血倒地.png","哭泣.png","欢呼.png","黑线.png","喜极而泣.png","喷水.png","深思.png","鼓掌.png","暗地观察.png"],
+     	
+      	
+          
+        });
+    </script> 
+
+
+   
+  
+ 
+
+		</div>
+
+			</div>
+			
+
+
+<div class="tocc col l3 hide-on-med-and-down">
+	
+        <div class="toc-widget">
+			
+            <div class="toc-title"></div>
+			
+            <div id="toc-content">
+			
+			
+			</div>
+        </div>
+    </div>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.5.0/tocbot.min.js"></script>
+<script>
+    $(function () {
+        tocbot.init({
+            tocSelector: '#toc-content',
+            contentSelector: '.entry-summary',
+            headingsOffset: -($(window).height() * 0.4 - 45),
+            // headingsOffset: -205,
+            headingSelector: 'h2, h3, h4'
+        });
+
+        // modify the toc link href to support Chinese.
+        let i = 0;
+        let tocHeading = 'toc-heading-';
+        $('#toc-content a').each(function () {
+            $(this).attr('href', '#' + tocHeading + (++i));
+        });
+
+        // modify the heading title id to support Chinese.
+        i = 0;
+        $('.entry-summary').children('h2, h3, h4').each(function () {
+            $(this).attr('id', tocHeading + (++i));
+        });
+
+        // Set scroll toc fixed.
+        let tocHeight = parseInt($(window).height() * 0.4 - 64);
+        let $tocWidget = $('.toc-widget');
+        $(window).scroll(function () {
+            let scroll = $(window).scrollTop();
+            /* add post toc fixed. */
+            if (scroll > tocHeight) {
+                $tocWidget.addClass('toc-fixed');
+            } else {
+                $tocWidget.removeClass('toc-fixed');
+            }
+        });
+    });
+</script>										 
+
+ 
+       
+
+
+			</div>
+		</div>
+
+		
+		 	<footer id="colophon" class="site-footer">
+
+			<div class="container">
+	
+				<div class="copyright"><br>Theme:   <a href="https://github.com/alterfang/gridea-theme-pan" target="_blank" title="Pan"><span>Pan</span></a>. Powered by <a href="https://gridea.dev/" target="_blank" title="Gridea"><span>Gridea</span></a></div>		
+			</div>
+		
+		</footer>
+
+</div>
+
+<script src="https://cdn.bootcss.com/fitvids/1.2.0/jquery.fitvids.min.js"></script>
+<script type='text/javascript' src='https://song66611.github.io/media/scripts/marlin-scripts.js'></script>
+ <script src="//tokinx.github.io/lately/lately.min.js"></script>
+  <script>jQuery(document).ready(function(){$.lately({'target':'.lately-a,.lately-b,.lately-c'})});</script>
+  <style type="text/css">a.back_to_top {
+    text-decoration: none;
+    position: fixed;
+    bottom: 40px;
+    right: 30px;
+    background: #f0f0f0;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    line-height: 36px;
+    font-size: 18px;
+    text-align: center;
+    transition-duration: .5s;
+    transition-propety: background-color;
+    display: none;
+}
+
+a.back_to_top span {
+    color: #888;
+}
+
+a.back_to_top:hover {
+    cursor: pointer;
+    background: #dfdfdf;
+}
+
+a.back_to_top:hover span {
+    color: #555;
+}
+
+@media print, screen and (max-width: 580px) {
+    .back_to_top {
+        display: none !important;
+    }
+}
+
+
+
+</style><a id="back_to_top" href="#" class="back_to_top"><span><i class="iconfont icon-xiangshang"></i></span>
+</a>
+
+
+<script>$(document).ready((function(_this) {
+  return function() {
+    var bt;
+    bt = $('#back_to_top');
+    if ($(document).width() > 480) {
+      $(window).scroll(function() {
+        var st;
+        st = $(window).scrollTop();
+        if (st > 30) {
+          return bt.css('display', 'block');
+        } else {
+          return bt.css('display', 'none');
+        }
+      });
+      return bt.click(function() {
+        $('body,html').animate({
+          scrollTop: 0
+        }, 800);
+        return false;
+      });
+    }
+  };
+})(this));
+</script>
+
+		<script data-no-instant>
+    (function ($) {
+        $.extend({
+            adamsOverload: function () {
+                $('.navigation:eq(0)').remove();
+                $("").attr("rel" , "external");
+                $("a[rel='external'],a[rel='external nofollow']").attr("target","_blank");
+                $("a.vi").attr("rel" , "");
+                $.viewImage({
+                    'target'  : 'img',
+                    'exclude' : '.vsmile-icons img,.gallery img',
+                    'delay'   : 300
+                });
+                $.lately({
+                    'target' : '.commentmetadata a,.infos time,.post-list time'
+                });
+                prettyPrint();
+                
+                $('ul.links li a').each(function(){
+                    if($(this).parent().find('.bg').length==0){
+                        $(this).parent().append('<!---<div class="bg" style="background-image:url(https://c3.glgoo.top/s2/favicons?domain='+$(this).attr("href")+')"></div>--->')
+                    }
+                });
+            }
+        });
+    })(jQuery);
+    jQuery.adamsOverload();
+</script>
+
+</body>
+</html>
